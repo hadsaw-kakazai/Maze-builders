@@ -14,10 +14,132 @@ body{
 
 }
 
+.nav-section{
+    height:10%;
+    width:100%;
+    background-color:#2a4560;
+    display:grid;
+    grid-template-columns: 20% auto 20%;
+    text-align:center;
+    color:white;
+}
+
+.hero-section{
+    box-sizing: border-box;
+    height:90%;
+    width:100%;
+    background-color:#f5f5f5;
+    display:grid;
+    grid-template-columns: 40% auto;
+    padding:20px;
+ 
+}
+
+.band{
+    box-sizing: border-box;
+    font-size:1.5em;
+  
+}
+
+.menu{
+    padding:15px
+}
+
+ul{
+    list-style: none;
+    
+
+}
+li{
+    display: inline;
+   
+    padding:10px;
+    margin:10px;
+    
+   
+}
+li a{
+    
+    text-decoration: none;
+    color:white;
+    font-size:1.2em;
+    text-align:center;
+    padding-left:10px;
+    padding-right:10px;
+    
+    
+
+}
+
+
+.cta{
+   
+    padding:15px;
+}
+
+.cta button{
+    height:60px;
+    width:200px;
+    border:none;
+    border-radius: 32px;
+    font-size:1em;
+    background-color:#fcd47c;
+}
+
+
+/* hero section */
+.hero-text-section h1{
+    font-size:4.5em;
+    padding-top:100px;
+    padding-left:100px;
+    color:#045ec2;
+}
+
+.hero-image-section {
+    display:grid;
+    grid-template-columns: 20% auto 20%;
+    box-sizing: border-box;
+}
+
+.image-div1{
+    height:100%;
+    width:70%;
+    margin:10px;
+    background-image:url("../image/image1.jpg");
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+
+    border-radius: 100% 100% 100% 100% / 50% 50% 50% 50%;
+}
+.image-div2{
+    height:70%;
+    margin-top:50%;
+    padding:10px;
+    background-image:url("../image/image1.jpg");
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+
+    border-radius: 100% 100% 100% 100% / 50% 50% 50% 50%;
+}
+
+.image-div3{
+    height:70%;
+    margin-top:50%;
+    padding:10px;
+    background-image:url("../image/image1.jpg");
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+
+    border-radius: 100% 100% 100% 100% / 50% 50% 50% 50%;
+}
 .partners{
     height:5%;
     width:100%;
     background-color:green;
+
 }
 
 .about{
