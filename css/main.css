@@ -1,0 +1,49 @@
+.container{
+    height:3000px !important;
+    width:100%;
+    background-color:black;
+}
+body{
+    margin:0;
+}
+
+.header{
+    height:30%;
+    width:100%;
+    background-color:white;
+
+}
+
+.partners{
+    height:5%;
+    width:100%;
+    background-color:green;
+}
+
+.about{
+    height:25%;
+    width:100%;
+    background-color:red;
+
+}
+
+.projects{
+    height:15%;
+    width:100%;
+    background-color:yellow;
+
+}
+
+.contact{
+    height:15%;
+    width:100%;
+    background-color:red;
+
+}
+
+.footer{
+    height:10%;
+    width:100%;
+    background-color:yellow;
+    
+}
